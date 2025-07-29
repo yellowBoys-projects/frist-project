@@ -5,10 +5,14 @@ export default function Home(){
         <>
 <section className='my-1'>
     <div>
-        <marquee behavior="" direction="" className=' text-xs text-red-700'> <a href="#" className='underline capitalize text-indigo-600'>new features</a> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim.</marquee>
+        <marquee behavior="" direction="" className=' text-xs md:text-sm text-red-900'> <a href="#" className='underline capitalize text-indigo-600'>new features</a> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim.</marquee>
     </div>
     <div className='my-5 sm:my-3'>
+        <a href="">
+            
         <img className='w-11/12 mx-auto lg:w-11/12 lg:h-[70vh] object-cover' src={Banner} alt="" />
+        </a>
+
     </div>
     <div>
         <ul className=' flex justify-center items-center gap-5'>

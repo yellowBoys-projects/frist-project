@@ -10,11 +10,7 @@ export default function App(){
     <>
     <Navbar/>
     <Home/>
-    <Service/>
-    <Trend/>
-    <Lanch/>
-    <Product/>
-    <Trend/>
+    
     
     </>
   )
