@@ -1,5 +1,4 @@
 import Banner from '../assets/banner.webp'
-
 export default function Home(){
     return(
         <>
@@ -17,10 +16,10 @@ export default function Home(){
     <div>
         <ul className=' flex justify-center items-center gap-5'>
 <div className='inline-flex gap-4'>
-    <li className='w-2 h-2 ring-1 rounded-full outline-2 outline-indigo-500 bg-indigo-500'></li>
-    <li className='w-2 h-2 ring-1 rounded-full'></li>
-    <li className='w-2 h-2 ring-1 rounded-full'></li>
-    <li className='w-2 h-2 ring-1 rounded-full'></li>
+    <li className='w-1 h-1 ring-1 rounded-full outline-2 outline-indigo-500 bg-indigo-500'></li>
+    <li className='w-1 h-1 ring-1 rounded-full'></li>
+    <li className='w-1 h-1 ring-1 rounded-full'></li>
+    <li className='w-1 h-1 ring-1 rounded-full'></li>
 
 </div>            
 

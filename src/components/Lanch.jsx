@@ -1,14 +1,12 @@
 import Img from '../assets/iphone.png'
 import {Card} from './Trend.jsx'
+
 export default function Lanch(){
     return(
         <>
         <section className='my-5'>
-            <h2 className='text-xl  capitalize sm:pl-5'>new  lanch </h2>
-<div className='my-5 overflow-x-auto sm:grid sm:grid-flow-col sm:gap-4 sm:w-full sm:p-2 '>
-<Card img={Img}/>
-<Card img={Img}/>
-<Card img={Img}/>
+            <h2 className='text-xl pl-[5%]  capitalize sm:pl-5'>new  lanch </h2>
+<div className='grid  overflow-x-auto    py-5 grid-flow-col px-2 gap-3'>
 <Card img={Img}/>
 <Card img={Img}/>
 
@@ -25,7 +23,7 @@ function SmallCard(props){
     return(
         <>
         <div className='flex   ring-1 ring-slate-300  '>
-            <img src={props.img} alt="" className='w-24 h-28 object-cover mx-auto' />
+            <img src={props.img} alt="" className='w-10 h-28 object-cover mx-auto' />
             <div className=''>
                 <h1 className='text-md capitalize font-bold text-red-500'>new lanch</h1>
                 <h3 className='font-bold text-md'>iphone</h3>
