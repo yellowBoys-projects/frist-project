@@ -4,7 +4,7 @@ export default function Home(){
         <>
 <section className='my-1'>
     <div>
-        <marquee behavior="" direction="" className=' text-xs md:text-sm text-red-900'> <a href="#" className='underline capitalize text-indigo-600'>new features</a> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim.</marquee>
+        <marquee behavior="" direction="" className=' text-[0.8rem] md:text-sm text-red-900'> <a href="#" className='underline capitalize text-indigo-600'>new features</a> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim.</marquee>
     </div>
     <div className='my-5 sm:my-3'>
         <a href="">

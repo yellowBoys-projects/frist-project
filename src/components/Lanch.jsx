@@ -5,8 +5,8 @@ export default function Lanch(){
     return(
         <>
         <section className='my-5'>
-            <h2 className='text-xl pl-[5%]  capitalize sm:pl-5'>new  lanch </h2>
-<div className='grid  overflow-x-auto    py-5 grid-flow-col px-2 gap-3'>
+            <h2 className='text-md font-bold pl-[5%]  capitalize sm:pl-5'>new  lanch </h2>
+<div className='grid  overflow-x-auto    py-[1rem] grid-flow-col px-2 gap-3'>
 <Card img={Img}/>
 <Card img={Img}/>
 
@@ -23,7 +23,7 @@ function SmallCard(props){
     return(
         <>
         <div className='flex   ring-1 ring-slate-300  '>
-            <img src={props.img} alt="" className='w-10 h-28 object-cover mx-auto' />
+            <img src={props.img} alt="" className='w-[3rem] h-28 object-cover mx-auto' />
             <div className=''>
                 <h1 className='text-md capitalize font-bold text-red-500'>new lanch</h1>
                 <h3 className='font-bold text-md'>iphone</h3>
@@ -39,9 +39,9 @@ function BigCard(props){
     return(
         <>
         <div className=' flex ring-1 w-1/2 mx-auto my-5  '> 
-            <img src={props.img} alt="" className=' object-cover w-28 h-28 ' />
+            <img src={props.img} alt="" className=' object-cover w-[2rem] h-auto ' />
             <div className='flex '>
-                <h4 className='text-lg text-red-500 font-bold capitalize'>iphone 10 pro</h4>
+                <h4 className='text-[1.3rem] text-red-500 font-bold capitalize'>iphone 10 pro</h4>
                 <p className='text-md'>8 ram 256 store.......</p>
                 <h6 className='text-md'><span className='font-bold text-lg '>&#8377;</span> 1,50,000</h6>
 <button className='capitalize font-bold  bg-indigo-500 text-white w-fit px-3 mt-5 text-2xl'>live sale</button>
