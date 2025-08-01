@@ -23,12 +23,12 @@ function SmallCard(props){
     return(
         <>
         <div className='flex   ring-1 ring-slate-300  '>
-            <img src={props.img} alt="" className='w-[3rem] h-28 object-cover mx-auto' />
+            <img src={props.img} alt="" className='w-auto h-28 object-cover mx-auto' />
             <div className=''>
                 <h1 className='text-md capitalize font-bold text-red-500'>new lanch</h1>
                 <h3 className='font-bold text-md'>iphone</h3>
                 <p className='capitalize text-sm'>12 ram 1Tb store...</p>
-                <button className='w-fit px-4 py-1 bg-indigo-500 text-white  font-bold rounded mt-3'>view</button>
+                <button className='w-fit px-4 py-1 bg-slate-800 text-white  font-bold rounded mt-3'>view</button>
             </div>
         </div>
         </>

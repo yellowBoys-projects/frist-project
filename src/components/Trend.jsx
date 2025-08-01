@@ -9,10 +9,18 @@ export default function Trend(){
     
 <Card img={Img}/>
 <Card img={Img}/>
-<Card img={Img}/>
-<Card img={Img}/>
-<Card img={Img}/>
-
+<div className='hidden md:block '>
+    <Card img={Img}/>
+    
+</div>
+<div className='hidden lg:block'>
+    <Card img={Img}/>
+    
+</div>    
+<div className='hidden xl:block'>
+    <Card img={Img}/>
+    
+</div>
 </div>
 
 
@@ -22,16 +30,16 @@ export default function Trend(){
 }
 
 
-export function Card(props){
+export function Card({ALT}){
     return(
         <>
-        <div className='flex gap-3 w-60 h-32 ring-1  items-center p-2 ring-slate-400 sm:ring-slate-300 rounded'>
-            <img src={props.img} alt="" className='w-15 h-20 object-cover sm:w-20 sm:h-32 ' />
+        <div className='flex gap-[0.4rem] w-fit h-fit ring-1  items-center p-[0.8rem] ring-slate-400 sm:ring-slate-300 rounded'>
+            <img src={ALT ? Img : Img} alt="" className='w-[16vw] h-auto object-cover sm:w-20 sm:h-32 ' />
             <div  >
                 <h4 className='text-md font-bold sm:text-md capitalize'>iphone 10 pro</h4>
                 <p className='text-sm sm:text-md'><span className='font-bold text-xl sm:text-md'>&#8377;</span> 1,90,000</p>
                 <p className='text-sm'>8 ram 256 store....</p>
-                <button className='w-fit mx-auto  py-1 px-2 mt-2 text-sm bg-indigo-400 text-white font-bold rounded sm:px-2 sm:py-1 capitalize sm:text-sm'>shop now</button>
+                <button className='w-fit mx-auto  py-1 px-2 mt-2 text-sm bg-indigo-700 text-white font-bold rounded sm:px-2 sm:py-1 capitalize sm:text-sm'>shop now</button>
             </div>
         </div>
         </>

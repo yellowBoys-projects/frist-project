@@ -8,7 +8,12 @@ export default function Service(){
             <h2 className='text-md pl-[5%] md:text-xl  capitalize  sm:text-xl sm:pl-5'>service</h2>
             <div className='mt-[1rem]  '>
 <Card img={Img01}/>
-
+<div className='hidden md:block'>
+<Card img={Img01}/>
+<Card img={Img01}/>
+<Card img={Img01}/>
+    
+</div>
             </div>
         </section>
         </>

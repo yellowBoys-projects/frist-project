@@ -1,7 +1,13 @@
 import Banner from '../assets/banner.webp'
+import {Card} from './Trend.jsx'
+import './global.css'
+import Img from '../assets/iphone.png'
+
 export default function Home(){
     return(
         <>
+        <main>
+            
 <section className='my-1'>
     <div>
         <marquee behavior="" direction="" className=' text-[0.8rem] md:text-sm text-red-900'> <a href="#" className='underline capitalize text-indigo-600'>new features</a> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim.</marquee>
@@ -25,8 +31,43 @@ export default function Home(){
 
         </ul>
     </div>
-    </section>        
+    </section>
+
+    <Recent name='recent' />
+    <Recent name='lanch' />
+
+
+        </main>
         </>
     )
 }
+
+function Recent({name}){
+    return(
+        <section>
+    <div>
+        
+    <h2 className='pl-[2rem] capitalize mb-5'>{name}</h2>
+    <div className='grid grid-flow-col-dense gap-3 justify-center  '>
+   <Card ALT={Img}/>   
+   <Card ALT={Img}/>     
+<div className='hidden md:block'>
+   <Card ALT={Img}/>   
+    
+</div>
+<div classNam='hidden lg:block'> 
+   <Card ALT={Img}/>   
+    
+</div>
+<div className='hidden xl:block'>
+   <Card ALT={Img}/>   
+    
+</div>
+    </div>
+    </div>
+
+</section>
+)
+}
+
 
